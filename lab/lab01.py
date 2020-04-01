@@ -43,6 +43,13 @@ def max():
     min(10, 3) -> 3
     """
 
+def abs_value():
+    """
+    Return the absolute value of a number.
+    abs_value(1) -> 1
+    abs_value(-1) -> 1
+    """
+
 # Do not change anything below this line.
 def main():
     print("Checking functionality of Add")
@@ -66,3 +73,6 @@ def main():
     print("Checking functionality of max")
     assert(max(1, 5), 5)
     assert(max(10, 3), 10)
+    print("Checking functionality of abs_value")
+    assert(abs_value(1), 1)
+    assert(abs_value(-1), 1)

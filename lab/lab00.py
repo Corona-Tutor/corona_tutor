@@ -5,11 +5,12 @@ def twenty_twenty():
     >>> twenty_twenty()
     2020
     """
-    return _____
+
+    return 2020
 
 def whatsmyname():
     """ Make the function return your name."""
-    return _____
+    return "jason"
 
 def main():
     print("My name is: " + whatsmyname())
